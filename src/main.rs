@@ -8,7 +8,7 @@ fn main() -> Result<(), io::Error> {
     println!("{}", match reply.trim() {
         "ja" => "mwa mwaa uwu",
         "nein" => "i hate you!",
-        _ => "..",
+        _ => "don't punch me i'll cum",
     });
 
     Ok(())
